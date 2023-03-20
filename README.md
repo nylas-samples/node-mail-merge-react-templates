@@ -2,6 +2,8 @@
 
 An implementation with React. Check out our <a href="https://www.youtube.com/watch?v=Ygr-oIhKidA&t=15s" target="_blank">How to Mail Merge using React Templates</a>.
 
+![mail-merge-react-templates](https://user-images.githubusercontent.com/553578/226420956-4d9a12c3-420c-4ea8-b426-73137125371c.gif)
+
 **⚠️ Warning: This repo is not meant for use in production and stability is not fully guaranteed.**
 
 Explore working front-end and back-end sample code in our sample Nylas integrations.
