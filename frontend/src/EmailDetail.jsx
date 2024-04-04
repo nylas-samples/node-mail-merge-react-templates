@@ -13,8 +13,6 @@ import SendEmails from './SendEmails';
 import { Button } from '@react-email/button';
 import { Html } from '@react-email/html';
 
-import TestEmailTemplate from '../react-email-starter/emails/test-email-template';
-
 const ACTIONS = {
   SET: 'set',
   TOGGLE: 'toggle',
