@@ -69,11 +69,11 @@ function App() {
       });
       const data = await res.json();
       if (Array.isArray(data)) {
-        const updatedContacts = data
-                                .filter(({ given_name }) => given_name.length !== 0)
-                                .filter(({ given_name}) => given_name !== 'No')
-                                .filter(({ given_name}) => given_name !== 'Donna')
-                                .map(enrichContact); 
+        console.log(72, {data});
+        const updatedContacts = data.map(enrichContact); 
+                                // .filter(({ givenName }) => givenName.length !== 0)
+                                // .filter(({ givenName }) => givenName !== 'No')
+                                // .filter(({ givenName }) => givenName !== 'Donna')
 
         setContacts(updatedContacts);
       } else {
